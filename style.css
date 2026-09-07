@@ -1,68 +1,119 @@
 body {
     font-family: "Apple Garamond", serif;
     background: repeating-linear-gradient(90deg,
-  #382D29,
-  #382D29 10px,
-  #463933 10px,
-  #463933 20px
-);
+            #382D29,
+            #382D29 10px,
+            #463933 10px,
+            #463933 20px);
     margin: 0;
     padding: 30px;
+    text-align: center;
 }
 
 h1 {
     font-family: "Beautiful Maples", cursive;
     text-align: center;
     color: #FFB7D5;
-    font-size: 80px;
-    margin-bottom: 20px;
+    font-size: 60px;
+    margin-bottom: 10px;
 }
 
-h2,
+h2 {
+    font-family: "Beautiful Maples", cursive;
+    text-align: center;
+    color: #3B2A22;
+    font-size: 32px;
+    margin: 0;
+}
+
+p,
 h3 {
     font-family: "Arial Narrow", sans-serif;
 }
 
-p,
+h4 {
+    font-family: "Arial Narrow", sans-serif;
+    font-size: 18px;
+    margin: 0;
+}
+
 li,
 td,
+th,
 label {
     font-family: "Apple Garamond", serif;
 }
 
-
+/* ===== PROFIL ===== */
 .profil {
     width: 600px;
+    max-width: 90%;
     margin: 0 auto 20px auto;
     text-align: center;
+    font-size: 24px;
+    padding: 10px;
 }
+
 .profil img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: 7px solid #FFB7D5;
+    border: 5px solid #FFB7D5;
     object-fit: cover;
     display: block;
     margin: 0 auto 15px auto;
 }
+
 .depart {
-    color: #CE1669;
     background-color: #FFF9B7;
+    color: #CE1669;
     text-align: center;
-    font-size: 16px;
+    padding: 6px 10px;
+    margin-bottom: 20px;
+    display: inline-block;
 }
+
 .bio {
     background-color: #FFB7D5;
-    padding: 25px;
-    border-radius: 10px;
-    border: 1px solid #ddd;
-}
-.jadwal {
-    width: 250px;
-    margin: 10px 15px 15px 180px;
-    background-color: #F9E8A2;
+    color: #3B2A22;
     padding: 20px;
-    border: 1px solid #ddd;
+    border-radius: 15px;
+    border: 3px solid #DD85AA;
+    text-align: center;
+    font-size: 23px;
+}
+
+.bio a {
+    color: #CE1669;
+}
+
+.schedule{
+    width: 250px;
+    margin: 1px 15px 15px 303px;
+    background-color: #F9E8A2;
+    padding: 15px;
+    border: 3px solid #F4EC8E;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.hobi{
+    width: 250px;
+    margin: -294.5px 0px 0px 618px;
+    background-color: #F9E8A2;
+    padding: 15px;
+    border: 3px solid #F4EC8E;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.jadwal{
+    width: 250px;
+    margin: 1px 15px 15px 303px;
+    background-color: #FFB7D5;
+    padding: 15px;
+    border: 3px solid #DD85AA;
+    border-radius: 10px;
     text-align: center;
 }
 
@@ -73,21 +124,42 @@ table {
 
 th,
 td {
-    border: 1px solid black;
+    border: 1px solid #3B2A22;
     padding: 10px 15px;
     text-align: left;
 }
 
-.hobby {
+.list {
     width: 250px;
-    margin: -279px 10px 100px 489px;
-    background-color: #F9E8A2;
-    padding: 20px;
-    border: 1px solid #ddd;
-}
-.hobby h2 {
-    text-align: center;
-}
-.hobby ul {
+    height: 154.5px;
+    margin: 14.5px 0px 0px 618px;
+    background-color: #FFB7D5;
+    padding: 15px;
+    border: 3px solid #DD85AA;
+    border-radius: 10px;
     text-align: left;
+    font-size: 25px;
+}
+
+.professional{
+    background-color: #FFB7D5;
+    color: #3B2A22;
+    padding: 20px;
+    border-radius: 15px;
+    border: 3px solid #DD85AA;
+    text-align: center;
+    font-size: 23px;
+    margin-top: 20px;
+}
+
+.credit{
+
+}
+
+.music{
+
+}
+
+.contact{
+
 }
