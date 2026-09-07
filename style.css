@@ -1,0 +1,93 @@
+body {
+    font-family: "Apple Garamond", serif;
+    background: repeating-linear-gradient(90deg,
+  #382D29,
+  #382D29 10px,
+  #463933 10px,
+  #463933 20px
+);
+    margin: 0;
+    padding: 30px;
+}
+
+h1 {
+    font-family: "Beautiful Maples", cursive;
+    text-align: center;
+    color: #FFB7D5;
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+
+h2,
+h3 {
+    font-family: "Arial Narrow", sans-serif;
+}
+
+p,
+li,
+td,
+label {
+    font-family: "Apple Garamond", serif;
+}
+
+
+.profil {
+    width: 600px;
+    margin: 0 auto 20px auto;
+    text-align: center;
+}
+.profil img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 7px solid #FFB7D5;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 15px auto;
+}
+.depart {
+    color: #CE1669;
+    background-color: #FFF9B7;
+    text-align: center;
+    font-size: 16px;
+}
+.bio {
+    background-color: #FFB7D5;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+.jadwal {
+    width: 250px;
+    margin: 10px 15px 15px 180px;
+    background-color: #F9E8A2;
+    padding: 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 10px 15px;
+    text-align: left;
+}
+
+.hobby {
+    width: 250px;
+    margin: -279px 10px 100px 489px;
+    background-color: #F9E8A2;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+.hobby h2 {
+    text-align: center;
+}
+.hobby ul {
+    text-align: left;
+}
