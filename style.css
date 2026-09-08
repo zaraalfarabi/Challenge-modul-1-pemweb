@@ -176,10 +176,12 @@ td {
     border-radius: 15px;
     border: 3px solid #F4EC8E;
     text-align: left;
+    font-size: 18px;
 }
 
 
 .credit{
+    width: 600px;
     max-width: 90%;
     margin: 20px auto;
     box-sizing: border-box;
@@ -188,7 +190,8 @@ td {
     padding: 20px;
     border-radius: 15px;
     border: 3px solid #DD85AA;
-    text-align: left;
+    text-align:left;
+    font-size: 18px;
 
 }
 
@@ -203,6 +206,7 @@ td {
     border-radius: 15px;
     border: 3px solid #F4EC8E;
     text-align:left;
+    font-size: 18px;
 
 }
 
