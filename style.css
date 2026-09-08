@@ -20,7 +20,7 @@ h1 {
 
 h2 {
     font-family: "Beautiful Maples", cursive;
-    text-align: center;
+    text-align: left;
     color: #3B2A22;
     font-size: 32px;
     margin: 0;
@@ -37,6 +37,13 @@ h4 {
     margin: 0;
 }
 
+h5 {
+    font-family: "Beautiful Maples", cursive;
+    font-size: 30px;
+    text-align:center;
+    margin: 0;
+}
+
 li,
 td,
 th,
@@ -44,7 +51,6 @@ label {
     font-family: "Apple Garamond", serif;
 }
 
-/* ===== PROFIL ===== */
 .profil {
     width: 600px;
     max-width: 90%;
@@ -57,8 +63,8 @@ label {
 .profil img {
     width: 150px;
     height: 150px;
-    border-radius: 50%;
-    border: 5px solid #FFB7D5;
+    border-radius: 100%;
+    border: 8px solid #FFB7D5;
     object-fit: cover;
     display: block;
     margin: 0 auto 15px auto;
@@ -87,79 +93,129 @@ label {
     color: #CE1669;
 }
 
-.schedule{
-    width: 250px;
-    margin: 1px 15px 15px 303px;
-    background-color: #F9E8A2;
-    padding: 15px;
-    border: 3px solid #F4EC8E;
-    border-radius: 10px;
+.container {
+    width: 600px;
+    max-width: 90%;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 30px;
     text-align: center;
 }
 
-.hobi{
-    width: 250px;
-    margin: -294.5px 0px 0px 618px;
-    background-color: #F9E8A2;
+.schedule {
+    width: auto;
+    margin: 0 0 20px 0;
+    background-color: #FFF9B7;
     padding: 15px;
     border: 3px solid #F4EC8E;
-    border-radius: 10px;
-    text-align: center;
+    border-radius: 20px;
+    text-align: auto;
 }
 
-.jadwal{
-    width: 250px;
-    margin: 1px 15px 15px 303px;
+.jadwal {
+    width: auto;
+    margin: 0;
     background-color: #FFB7D5;
-    padding: 15px;
-    border: 3px solid #DD85AA;
-    border-radius: 10px;
-    text-align: center;
+    border: 4px solid #DD85AA;
 }
-
 table {
-    margin: 0 auto;
+    widht: 100%;
     border-collapse: collapse;
 }
 
 th,
 td {
-    border: 1px solid #3B2A22;
-    padding: 10px 15px;
-    text-align: left;
+    border: 3px solid #DD85AA;
+    padding: 15px;
+    text-align: center;
+    color: #3B2A22;
+}
+
+th {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Arial", sans-serif;
+}
+
+td {
+    font-size: 18px;
+    font-family: "Arial", sans-serif;
+}
+
+
+.hobi {
+    width: auto;
+    margin: 0 0 20px 0;
+    background-color: #FFF9B7;
+    padding: 15px;
+    border: 3px solid #F4EC8E;
+    border-radius: 20px;
+    text-align: auto;
 }
 
 .list {
-    width: 250px;
-    height: 154.5px;
-    margin: 14.5px 0px 0px 618px;
+    width: auto;
+    height: 165px;
+    margin: 0;
     background-color: #FFB7D5;
     padding: 15px;
-    border: 3px solid #DD85AA;
-    border-radius: 10px;
+    border: 7px solid #DD85AA;
     text-align: left;
     font-size: 25px;
 }
 
 .professional{
+    width: 600px;
+    max-width: 90%;
+    margin: 20px auto;
+    box-sizing: border-box;
+    background-color: #FFF9B7;
+    color: #3B2A22;
+    padding: 20px;
+    border-radius: 15px;
+    border: 3px solid #F4EC8E;
+    text-align: left;
+}
+
+
+.credit{
+    max-width: 90%;
+    margin: 20px auto;
+    box-sizing: border-box;
     background-color: #FFB7D5;
     color: #3B2A22;
     padding: 20px;
     border-radius: 15px;
     border: 3px solid #DD85AA;
-    text-align: center;
-    font-size: 23px;
-    margin-top: 20px;
-}
-
-.credit{
+    text-align: left;
 
 }
 
 .music{
+    width: 600px;
+    max-width: 90%;
+    margin: 20px auto;
+    box-sizing: border-box;
+    background-color: #FFF9B7;
+    color: #3B2A22;
+    padding: 20px;
+    border-radius: 15px;
+    border: 3px solid #F4EC8E;
+    text-align:left;
 
 }
 
 .contact{
+    width: 600px;
+    max-width: 90%;
+    margin: 20px auto;
+    box-sizing: border-box;
+    background-color: #FFB7D5;
+    color: #3B2A22;
+    padding: 20px;
+    border-radius: 15px;
+    border: 3px solid #DD85AA;
+    text-align:left;
 
 }
